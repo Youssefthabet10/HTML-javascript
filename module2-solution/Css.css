@@ -1,0 +1,97 @@
+#Menu{
+text-align: center;
+color: #00FA9A	; 
+margin-bottom: 20px;
+}
+*{
+	box-sizing: border-box;
+}
+#Chicken{
+background-color: lightblue;
+border: 1px solid black;
+position: absolute;
+right: 0%;
+top:0%;
+margin-top: 0;
+font-size: 26px;
+width: 110px;
+text-align: center;
+
+}
+#beef{
+background-color: orange;
+border: 1px solid black;
+position: absolute;
+right: 0%;
+top:0%;
+margin-top: 0;
+font-size: 26px;
+width: 85px;
+text-align: center;
+
+}
+#Sushi{
+background-color: pink;
+border: 1px solid black;
+position: absolute;
+right: 0%;
+top:0%;
+margin-top: 0;
+font-size: 26px;
+width: 85px;
+text-align: center;
+
+}
+.body1{
+	position: absolute;
+	top: 20%;
+	padding:15px ;
+	font-size: 18px;
+	text-transform: capitalize;
+	text-align: center;
+	font-weight: bold;
+	font-family:sans-serif; 
+	overflow: auto;
+}
+.head{
+	border: 2px solid black;
+	background-color: grey;
+	width: 90%;
+	height: 185px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+
+}
+#MainBox{
+	width: 100%;
+}
+@media(min-width:992px ){
+.Large {
+	float: left;
+	
+	width: 33.333%;
+}
+}
+@media(min-width:768px )and (max-width:991px ){
+	.Medium {
+	float: left;
+	
+	width: 50%;
+}
+.Medium2 {
+	float: left;
+	height: 100px;
+	width: 100%;
+	margin-top: 15px;
+}
+
+
+}
+@media(max-width:767px ){
+	.small{
+	float: left;
+	margin-bottom: 5px;
+	width: 100%;
+}
+}
